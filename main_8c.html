@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ME507 Term Project G: ME507 Code/main.c File Reference</title>
+<title>ME507Mecha07: ME507 Code/main.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">ME507 Term Project G
+   <div id="projectname">ME507Mecha07
    </div>
   </td>
  </tr>
@@ -95,17 +95,15 @@ $(function(){initNavTree('main_8c.html','',''); });
 <p>: Main program body  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_interface_8h_source.html">Interface.h</a>&quot;</code><br />
-</div>
-<p><a href="main_8c_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
+<code>#include &quot;Interface.h&quot;</code><br />
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a36d8a2ea3b009fa8ebb7265f1357b289" id="r_a36d8a2ea3b009fa8ebb7265f1357b289"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289">main_state_t</a> { <a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289a7334b3b239e153a6b4fb4ba9271bada8">S0_INTERFACE</a>
-, <a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289a2a8623e9d357ecbdf1f5f55df9bd81d4">S1_ADC</a>
-, <a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289a2377dd97cddce5eced4a0b69b278720b">S2_MAIN</a>
+<tr class="memitem:a36d8a2ea3b009fa8ebb7265f1357b289" id="r_a36d8a2ea3b009fa8ebb7265f1357b289"><td class="memItemLeft" align="right" valign="top"><a id="a36d8a2ea3b009fa8ebb7265f1357b289" name="a36d8a2ea3b009fa8ebb7265f1357b289"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289">main_state_t</a> { <b>S0_INTERFACE</b>
+, <b>S1_ADC</b>
+, <b>S2_MAIN</b>
  }</td></tr>
-<tr class="memdesc:a36d8a2ea3b009fa8ebb7265f1357b289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The enum of valid states for the main FSM.  <a href="#a36d8a2ea3b009fa8ebb7265f1357b289">More...</a><br /></td></tr>
+<tr class="memdesc:a36d8a2ea3b009fa8ebb7265f1357b289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The enum of valid states for the main FSM. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -120,14 +118,20 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9c6222bae4d0328dd843ae099623b40b" id="r_a9c6222bae4d0328dd843ae099623b40b"><td class="memItemLeft" align="right" valign="top">SPI_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c6222bae4d0328dd843ae099623b40b">hspi1</a></td></tr>
-<tr class="memitem:a25fc663547539bc49fecc0011bd76ab5" id="r_a25fc663547539bc49fecc0011bd76ab5"><td class="memItemLeft" align="right" valign="top">TIM_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25fc663547539bc49fecc0011bd76ab5">htim1</a></td></tr>
-<tr class="memitem:aac3d2c59ee0e3bbae1b99529a154eb62" id="r_aac3d2c59ee0e3bbae1b99529a154eb62"><td class="memItemLeft" align="right" valign="top">TIM_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3d2c59ee0e3bbae1b99529a154eb62">htim3</a></td></tr>
-<tr class="memitem:a85788cec5a97ee377e4ee2e74f026484" id="r_a85788cec5a97ee377e4ee2e74f026484"><td class="memItemLeft" align="right" valign="top">TIM_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85788cec5a97ee377e4ee2e74f026484">htim4</a></td></tr>
-<tr class="memitem:a2cf715bef37f7e8ef385a30974a5f0d5" id="r_a2cf715bef37f7e8ef385a30974a5f0d5"><td class="memItemLeft" align="right" valign="top">UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf715bef37f7e8ef385a30974a5f0d5">huart1</a></td></tr>
-<tr class="memitem:aa9479c261d65eecedd3d9582f7f0f89c" id="r_aa9479c261d65eecedd3d9582f7f0f89c"><td class="memItemLeft" align="right" valign="top">UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9479c261d65eecedd3d9582f7f0f89c">huart2</a></td></tr>
-<tr class="memitem:acc9c4e4afaa58ae9479d0b2a5b0360ac" id="r_acc9c4e4afaa58ae9479d0b2a5b0360ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289">main_state_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc9c4e4afaa58ae9479d0b2a5b0360ac">mainState</a> = <a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289a7334b3b239e153a6b4fb4ba9271bada8">S0_INTERFACE</a></td></tr>
-<tr class="memitem:a70c727f50c998932fcea52db74a2da28" id="r_a70c727f50c998932fcea52db74a2da28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70c727f50c998932fcea52db74a2da28">prevMainState</a> = <a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289a2377dd97cddce5eced4a0b69b278720b">S2_MAIN</a></td></tr>
+<tr class="memitem:a9c6222bae4d0328dd843ae099623b40b" id="r_a9c6222bae4d0328dd843ae099623b40b"><td class="memItemLeft" align="right" valign="top"><a id="a9c6222bae4d0328dd843ae099623b40b" name="a9c6222bae4d0328dd843ae099623b40b"></a>
+SPI_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>hspi1</b></td></tr>
+<tr class="memitem:a25fc663547539bc49fecc0011bd76ab5" id="r_a25fc663547539bc49fecc0011bd76ab5"><td class="memItemLeft" align="right" valign="top"><a id="a25fc663547539bc49fecc0011bd76ab5" name="a25fc663547539bc49fecc0011bd76ab5"></a>
+TIM_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>htim1</b></td></tr>
+<tr class="memitem:aac3d2c59ee0e3bbae1b99529a154eb62" id="r_aac3d2c59ee0e3bbae1b99529a154eb62"><td class="memItemLeft" align="right" valign="top"><a id="aac3d2c59ee0e3bbae1b99529a154eb62" name="aac3d2c59ee0e3bbae1b99529a154eb62"></a>
+TIM_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>htim3</b></td></tr>
+<tr class="memitem:a85788cec5a97ee377e4ee2e74f026484" id="r_a85788cec5a97ee377e4ee2e74f026484"><td class="memItemLeft" align="right" valign="top"><a id="a85788cec5a97ee377e4ee2e74f026484" name="a85788cec5a97ee377e4ee2e74f026484"></a>
+TIM_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>htim4</b></td></tr>
+<tr class="memitem:a2cf715bef37f7e8ef385a30974a5f0d5" id="r_a2cf715bef37f7e8ef385a30974a5f0d5"><td class="memItemLeft" align="right" valign="top"><a id="a2cf715bef37f7e8ef385a30974a5f0d5" name="a2cf715bef37f7e8ef385a30974a5f0d5"></a>
+UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>huart1</b></td></tr>
+<tr class="memitem:aa9479c261d65eecedd3d9582f7f0f89c" id="r_aa9479c261d65eecedd3d9582f7f0f89c"><td class="memItemLeft" align="right" valign="top"><a id="aa9479c261d65eecedd3d9582f7f0f89c" name="aa9479c261d65eecedd3d9582f7f0f89c"></a>
+UART_HandleTypeDef&#160;</td><td class="memItemRight" valign="bottom"><b>huart2</b></td></tr>
+<tr class="memitem:acc9c4e4afaa58ae9479d0b2a5b0360ac" id="r_acc9c4e4afaa58ae9479d0b2a5b0360ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289">main_state_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc9c4e4afaa58ae9479d0b2a5b0360ac">mainState</a> = S0_INTERFACE</td></tr>
+<tr class="memitem:a70c727f50c998932fcea52db74a2da28" id="r_a70c727f50c998932fcea52db74a2da28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70c727f50c998932fcea52db74a2da28">prevMainState</a> = S2_MAIN</td></tr>
 <tr class="memitem:a90005858c62b4bff8b522f98d8317e88" id="r_a90005858c62b4bff8b522f98d8317e88"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90005858c62b4bff8b522f98d8317e88">mainStamp</a> = 0</td></tr>
 <tr class="memitem:a49938c62d80ba156c4c3323d07e0995d" id="r_a49938c62d80ba156c4c3323d07e0995d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49938c62d80ba156c4c3323d07e0995d">resetStamp</a></td></tr>
 </table>
@@ -136,33 +140,7 @@ Variables</h2></td></tr>
 <dl class="section attention"><dt>Attention</dt><dd></dd></dl>
 <p>Copyright (c) 2025 STMicroelectronics. All rights reserved.</p>
 <p>This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-IS. </p>
-
-<p class="definition">Definition in file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="a36d8a2ea3b009fa8ebb7265f1357b289" name="a36d8a2ea3b009fa8ebb7265f1357b289"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d8a2ea3b009fa8ebb7265f1357b289">&#9670;&#160;</a></span>main_state_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289">main_state_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The enum of valid states for the main FSM. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a36d8a2ea3b009fa8ebb7265f1357b289a7334b3b239e153a6b4fb4ba9271bada8" name="a36d8a2ea3b009fa8ebb7265f1357b289a7334b3b239e153a6b4fb4ba9271bada8"></a>S0_INTERFACE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a36d8a2ea3b009fa8ebb7265f1357b289a2a8623e9d357ecbdf1f5f55df9bd81d4" name="a36d8a2ea3b009fa8ebb7265f1357b289a2a8623e9d357ecbdf1f5f55df9bd81d4"></a>S1_ADC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a36d8a2ea3b009fa8ebb7265f1357b289a2377dd97cddce5eced4a0b69b278720b" name="a36d8a2ea3b009fa8ebb7265f1357b289a2377dd97cddce5eced4a0b69b278720b"></a>S2_MAIN&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00057">57</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
-</div>
-</div>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a1730ffe1e560465665eb47d9264826f9" name="a1730ffe1e560465665eb47d9264826f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1730ffe1e560465665eb47d9264826f9">&#9670;&#160;</a></span>Error_Handler()</h2>
 
@@ -185,8 +163,6 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00639">639</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -219,8 +195,6 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00628">628</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
 </div>
 </div>
 <a id="a840291bc02cba5474a4cb46a9b9566fe" name="a840291bc02cba5474a4cb46a9b9566fe"></a>
@@ -245,8 +219,6 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00093">93</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -276,107 +248,9 @@ Variables</h2></td></tr>
 <p>Initializes the RCC Oscillators according to the specified parameters in the RCC_OscInitTypeDef structure.</p>
 <p>Initializes the CPU, AHB and APB buses clocks</p>
 
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00246">246</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
 </div>
 </div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a9c6222bae4d0328dd843ae099623b40b" name="a9c6222bae4d0328dd843ae099623b40b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c6222bae4d0328dd843ae099623b40b">&#9670;&#160;</a></span>hspi1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SPI_HandleTypeDef hspi1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00043">43</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
-</div>
-</div>
-<a id="a25fc663547539bc49fecc0011bd76ab5" name="a25fc663547539bc49fecc0011bd76ab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25fc663547539bc49fecc0011bd76ab5">&#9670;&#160;</a></span>htim1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TIM_HandleTypeDef htim1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00045">45</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
-</div>
-</div>
-<a id="aac3d2c59ee0e3bbae1b99529a154eb62" name="aac3d2c59ee0e3bbae1b99529a154eb62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac3d2c59ee0e3bbae1b99529a154eb62">&#9670;&#160;</a></span>htim3</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TIM_HandleTypeDef htim3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00046">46</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
-</div>
-</div>
-<a id="a85788cec5a97ee377e4ee2e74f026484" name="a85788cec5a97ee377e4ee2e74f026484"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85788cec5a97ee377e4ee2e74f026484">&#9670;&#160;</a></span>htim4</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TIM_HandleTypeDef htim4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00047">47</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
-</div>
-</div>
-<a id="a2cf715bef37f7e8ef385a30974a5f0d5" name="a2cf715bef37f7e8ef385a30974a5f0d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cf715bef37f7e8ef385a30974a5f0d5">&#9670;&#160;</a></span>huart1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">UART_HandleTypeDef huart1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00049">49</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
-</div>
-</div>
-<a id="aa9479c261d65eecedd3d9582f7f0f89c" name="aa9479c261d65eecedd3d9582f7f0f89c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9479c261d65eecedd3d9582f7f0f89c">&#9670;&#160;</a></span>huart2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">UART_HandleTypeDef huart2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00050">50</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
-</div>
-</div>
 <a id="a90005858c62b4bff8b522f98d8317e88" name="a90005858c62b4bff8b522f98d8317e88"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90005858c62b4bff8b522f98d8317e88">&#9670;&#160;</a></span>mainStamp</h2>
 
@@ -390,8 +264,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>a time stamp for the main FSM </p>
 
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00065">65</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
-
 </div>
 </div>
 <a id="acc9c4e4afaa58ae9479d0b2a5b0360ac" name="acc9c4e4afaa58ae9479d0b2a5b0360ac"></a>
@@ -401,13 +273,11 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289">main_state_t</a> mainState = <a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289a7334b3b239e153a6b4fb4ba9271bada8">S0_INTERFACE</a></td>
+          <td class="memname"><a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289">main_state_t</a> mainState = S0_INTERFACE</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>the next state of the main FSM to run </p>
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00063">63</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -418,13 +288,11 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int prevMainState = <a class="el" href="#a36d8a2ea3b009fa8ebb7265f1357b289a2377dd97cddce5eced4a0b69b278720b">S2_MAIN</a></td>
+          <td class="memname">int prevMainState = S2_MAIN</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>the last state of the main FSM to run </p>
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00064">64</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -440,8 +308,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>a time stamp to keep track of when to reset the MCU </p>
-
-<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00067">67</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>

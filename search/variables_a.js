@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['resetstamp_0',['resetStamp',['../main_8c.html#a49938c62d80ba156c4c3323d07e0995d',1,'main.c']]],
-  ['right_5foffset_1',['RIGHT_OFFSET',['../_filler_8c.html#a663890dc133dc4aa3612ce80cb8af01f',1,'Filler.c']]],
-  ['runonce_2',['runOnce',['../structfill__struct__t.html#ae1e0a6b700a19f1be20ac8a52b5999d9',1,'fill_struct_t']]],
-  ['rweight_3',['rWeight',['../structadc__struct__t.html#af0291c5e39c2579df3b9f0d8d603f31e',1,'adc_struct_t']]]
+  ['targetweight_0',['targetWeight',['../structadc__struct__t.html#ad4690bedf23992721b768a874e7e3212',1,'adc_struct_t']]],
+  ['timeoutstamp_1',['timeOutStamp',['../structfill__struct__t.html#a64cbfeefbedbcfebba38ef236c5ba508',1,'fill_struct_t']]],
+  ['ts_2',['TS',['../structinterface__struct__t.html#a8b58e91febd5036bb469db6393442484',1,'interface_struct_t']]]
 ];

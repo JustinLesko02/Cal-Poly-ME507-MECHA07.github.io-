@@ -1,13 +1,6 @@
 var searchData=
 [
-  ['prevadcstate_0',['prevAdcState',['../structadc__struct__t.html#a2581a63fb428573927a09edae7f0eb88',1,'adc_struct_t']]],
-  ['prevfillstate_1',['prevFillState',['../structfill__struct__t.html#a600a14213dbfbca21d52d2023e958f45',1,'fill_struct_t']]],
-  ['previndex_2',['prevIndex',['../structadc__struct__t.html#ae3c71ee703b02a69919db46890c6b664',1,'adc_struct_t']]],
-  ['previnitstate_3',['prevInitState',['../structinterface__struct__t.html#abf8ce5f701b389aa3f963c3fa53d6df3',1,'interface_struct_t']]],
-  ['prevl_4',['prevL',['../structadc__struct__t.html#a1af083d48bec05d9cebc831b4da4d8eb',1,'adc_struct_t']]],
-  ['prevmainstate_5',['prevMainState',['../main_8c.html#a70c727f50c998932fcea52db74a2da28',1,'main.c']]],
-  ['prevr_6',['prevR',['../structadc__struct__t.html#a9d8c4c83b9e62ca520420e9d5a1c5c49',1,'adc_struct_t']]],
-  ['print_5fmsg_7',['print_msg',['../_interface_8c.html#a2ce7c4d064c3b1a3f182c3e830a4c31d',1,'print_msg(char *msg):&#160;Interface.c'],['../_interface_8h.html#a2ce7c4d064c3b1a3f182c3e830a4c31d',1,'print_msg(char *msg):&#160;Interface.c']]],
-  ['project_8',['ME507 MECHA07 TERM PROJECT',['../index.html',1,'']]],
-  ['project_20created_20by_20evan_20long_20and_20justin_20lesko_9',['Project Created by Evan Long and Justin Lesko',['../md__r_e_a_d_m_e.html',1,'Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Justin Lesko.'],['../index.html#autotoc_md0',1,'Hello! Welcome to our Mechatronics Term Project. Created by Evan Long and Justin Lesko.']]]
+  ['resetstamp_0',['resetStamp',['../main_8c.html#a49938c62d80ba156c4c3323d07e0995d',1,'main.c']]],
+  ['runonce_1',['runOnce',['../structfill__struct__t.html#ae1e0a6b700a19f1be20ac8a52b5999d9',1,'fill_struct_t']]],
+  ['rweight_2',['rWeight',['../structadc__struct__t.html#af0291c5e39c2579df3b9f0d8d603f31e',1,'adc_struct_t']]]
 ];

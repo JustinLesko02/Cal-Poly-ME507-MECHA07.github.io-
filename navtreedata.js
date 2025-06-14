@@ -24,9 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "ME507 Term Project G", "index.html", [
+  [ "ME507Mecha07", "index.html", [
     [ "ME507 MECHA07 TERM PROJECT", "index.html", null ],
-    [ "Hello! Welcome to our Mechatronics Term Project. Created by Evan Long and Justin Lesko.", "md__r_e_a_d_m_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -41,8 +40,7 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ]
+        [ "Enumerations", "globals_enum.html", null ]
       ] ]
     ] ]
   ] ]
@@ -50,7 +48,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_filler_8c.html"
+"_filler_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
