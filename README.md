@@ -15,4 +15,4 @@ The cat feeder dispenses food with a large lead screw, and has a pair of load ce
 This github repository serves two purposes.  One, it hosts our website, which contains an overview of the mechanical,
 electrical, and software designs for this project.  Two, it contains our source code, in a folder called "ME507 Code".
 
-A link to our website can be found here: [WEBSITE](https://JustinLesko02.github.io/calpoly-me507-mecha07/)
+A link to our website can be found here: [WEBSITE](https://justinlesko02.github.io/CalPoly-ME507-MECHA07/)
